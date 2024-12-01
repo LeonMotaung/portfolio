@@ -13,21 +13,15 @@
   <link href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" rel="stylesheet"/>
   <style>
    .fade-in {
-    animation: fadeIn 1s ease-in-out;
-   }
-   @keyframes fadeIn {
-    0% {
-     opacity: 0;
-    }
-    100% {
-     opacity: 1;
-    }
-   }
-  
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
   </style>
  </head>
  <body class="transition-colors duration-500" oncontextmenu="return false">
- 
   <header class="bg-gray-800 bg-opacity-70 backdrop-blur-md text-white p-4 fixed w-full z-10 top-0">
    <nav class="container mx-auto flex justify-between items-center">
     <a class="text-2xl font-bold" href="#home">
@@ -143,592 +137,175 @@
     </div>
    </section>
    <section class="bg-gray-100 py-20 fade-in" id="skills">
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Expertise</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        .hover-grow:hover {
-            transform: scale(1.05);
-        }
-        .hover-slide:hover {
-            transform: translateX(10px);
-        }
-        .transition-all {
-            transition: all 0.3s ease-in-out;
-        }
-        .hidden-content {
-            display: none;
-        }
-    </style>
-</head>
-<body class="bg-gray-500 text-[#c0c5ce]">
-    <header class="flex justify-between items-center p-6">
-        <div class="flex space-x-4">
-            <a href="#" class="transition-all hover-grow">
-                <i class="fab fa-github text-[#c0c5ce] text-xl"></i>
-            </a>
-            <a href="#" class="transition-all hover-grow">
-                <i class="fab fa-twitter text-[#c0c5ce] text-xl"></i>
-            </a>
-            <a href="#" class="transition-all hover-grow">
-                <i class="fab fa-linkedin text-[#c0c5ce] text-xl"></i>
-            </a>
-        </div>
-    </header>
-    <main class="px-6 py-12">
-        <h1 class="text-4xl font-bold text-[#c0c5ce]">EXPERTISE</h1>
-        <p class="text-lg text-[#c0c5ce] mb-12">A list of my core skills & tools</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="CSS logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">CSS</h2>
-                        <p class="text-[#c0c5ce]">Highly skilled in Cascading Style Sheets (CSS), with extensive experience in creating and implementing modern and respo...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have mastered various CSS techniques including Flexbox, Grid, animations, and responsive design.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Tailwind CSS logo" class="w-12 h-12" height="50" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">Tailwind CSS</h2>
-                        <p class="text-[#c0c5ce]">Proficient in Tailwind CSS, a utility-first CSS framework for rapidly building custom user interfaces...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have used Tailwind CSS to create highly customizable and responsive web designs efficiently.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS Solution Architect logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">AWS Solution Architect</h2>
-                        <p class="text-[#c0c5ce]">Certified AWS Solution Architect with experience in designing and deploying scalable, highly available, and fault-tolerant systems...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have designed and implemented various AWS solutions including EC2, S3, RDS, and Lambda.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS Node JS Developer logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">AWS Node JS Developer</h2>
-                        <p class="text-[#c0c5ce]">Experienced in developing serverless applications using AWS Lambda and Node.js...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have built and deployed serverless applications using AWS Lambda, API Gateway, and DynamoDB.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="GitHub logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">GitHub</h2>
-                        <p class="text-[#c0c5ce]">Proficient in using GitHub for version control, collaboration, and project management...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have managed numerous projects on GitHub, utilizing features like pull requests, issues, and GitHub Actions for CI/CD.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Emotional Intelligence logo" class="w-12 h-12" height="50" src="https://images.squarespace-cdn.com/content/v1/5d5fec8d025df20001e19ad7/1571768832136-SYV0AXDGFCO4QXU9SKIV/EQ.png?format=1500w" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">Emotional Intelligence</h2>
-                        <p class="text-[#c0c5ce]">Skilled in emotional intelligence, with the ability to understand and manage my own emotions, and those of others...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have developed strong interpersonal skills, empathy, and effective communication, which have been crucial in team collaboration and leadership.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="MongoDB logo" class="w-12 h-12" height="50" src="https://webimages.mongodb.com/_com_assets/cms/kuyjsg7d7hhv0d5f0-horizontal_default.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">MongoDB</h2>
-                        <p class="text-[#c0c5ce]">Experienced in using MongoDB, a popular NoSQL database, for building scalable and high-performance applications...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have designed and implemented various data models using MongoDB, leveraging its flexible schema and powerful query capabilities.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Javascript logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">Javascript</h2>
-                        <p class="text-[#c0c5ce]">Skilled in Javascript programming language, with extensive experience in building dynamic and interactive web applicati...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have developed numerous web applications using JavaScript, including frameworks like React and Node.js.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="HTML 5 logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">HTML 5</h2>
-                        <p class="text-[#c0c5ce]">Expert in Hypertext Markup Language (HTML), with experience in developing and maintaining web pages and applications. P...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have a deep understanding of HTML5, including semantic elements, multimedia, and APIs.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="React logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">React</h2>
-                        <p class="text-[#c0c5ce]">Highly skilled in React, a popular JavaScript library for building user interfaces. Proficient in utilizing React's com...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have built numerous single-page applications using React, leveraging hooks, context, and Redux for state management.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Bootstrap 5 logo" class="w-12 h-12" height="50" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">Bootstrap 5</h2>
-                        <p class="text-[#c0c5ce]">Experienced in using Bootstrap, a popular CSS framework, to create responsive and mobile-friendly websites. Proficient ...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have utilized Bootstrap 5 to create responsive, mobile-first web designs with a consistent look and feel.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS SysOps Administration logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">AWS SysOps Administration</h2>
-                        <p class="text-[#c0c5ce]">Certified AWS SysOps Administrator with experience in managing and operating systems on the AWS platform...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have managed and automated AWS infrastructure using tools like CloudFormation, Terraform, and the AWS CLI.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS Cloud Practitioner logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">AWS Cloud Practitioner</h2>
-                        <p class="text-[#c0c5ce]">Certified AWS Cloud Practitioner with a fundamental understanding of AWS Cloud concepts, services, and terminology...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have a solid foundation in AWS cloud concepts, services, and best practices for cloud architecture.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Express JS logo" class="w-12 h-12" height="50" src="https://images.credly.com/size/340x340/images/1c2c86e1-16ce-4e4d-a425-d1ac96bb026d/express.png" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-white">Express JS</h2>
-                        <p class="text-[#c0c5ce]">Proficient in Express.js, a minimal and flexible Node.js web application framework...</p>
-                        <p class="hidden-content text-[#c0c5ce]">I have built numerous RESTful APIs and web applications using Express.js, leveraging its robust features and middleware.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="fixed bottom-4 right-4">
-        <a class="bg-[#fac863] p-4 rounded-full text-[#1b2b34] text-xl transition-all hover-grow" href="#">
-            <i class="fas fa-home"></i>
-        </a>
-    </footer>
-    <script>
-        function toggleContent(element) {
-            const hiddenContent = element.previousElementSibling;
-            if (hiddenContent.style.display === "none" || hiddenContent.style.display === "") {
-                hiddenContent.style.display = "block";
-                element.textContent = "view less ↑";
-            } else {
-                hiddenContent.style.display = "none";
-                element.textContent = "view more ↓";
-            }
-        }
-    </script>
-</body>
-</html>
-   </section>
-   <section class="py-20 fade-in" id="qualification">
     <div class="container mx-auto text-center">
      <h2 class="text-3xl font-bold">
-      Qualification
-     </h2>
-     <span class="text-gray-500">
-      My personal journey
-     </span>
-     <div class="mt-8 grid md:grid-cols-2 gap-8">
-      <div class="text-left space-y-4">
-       <h3 class="text-2xl font-bold">
-        Education
-       </h3>
-       <div class="space-y-4">
-        
-        <div>
-         <h4 class="text-xl font-bold">
-          Class 12th
-         </h4>
-         <span class="text-gray-500">
-          Mfundo Thuto SS - 2019
-         </span>
-         <p class="text-gray-700">
-          Subjects studied: Science, Maths, English. Scored 76% in Physical Sciences, 72%. 
-         </p>
-        </div>
-        <div>
-         <h4 class="text-xl font-bold">
-          University
-         </h4>
-         <span class="text-gray-500">
-          University of the Western Cape
-         </span>
-         <p class="text-gray-700">
-          Studying core subjects of Accounting and Tax. Scored an aggregate of 3.0 GPA till now. Tutor and Rugby Player.
-         </p>
-        </div>
-        <h4 class="text-xl font-bold">
-          Udemy
-         </h4>
-         <span class="text-gray-500">
-          Udemy-2021
-         </span>
-         <p class="text-gray-700">
-          <link href="https://www.udemy.com/share/101WRi3@moann8xBoh_z41rjm1PODUUSlJlWIgKzVf8lkXz5ycfq2pFmv9xwmMUFGmEA1QlKPw==/">The Complete Web Development Course - Build 15 Projects <link>
-         </p>
-        </div>
-       <div>
-         <h4 class="text-xl font-bold">
-          University
-         </h4>
-         <span class="text-gray-500">
-          Udemy
-         </span>
-         <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS Cloud Practitioner
-         </p>
-        </div>
-       <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS Node JS Developer
-         </p>
-       <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS SysOps Administrator 
-         </p>
-       <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS Solution Architect 
-         </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="bg-gray-100 py-20 fade-in" id="portfolio">
-    <!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   My Portfolio
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" rel="stylesheet"/>
-  <style>
-   .fade-in {
-    animation: fadeIn 1s ease-in-out;
-   }
-   @keyframes fadeIn {
-    0% {
-     opacity: 0;
-    }
-    100% {
-     opacity: 1;
-    }
-   }
-  
-  </style>
- </head>
- <body class="transition-colors duration-500" oncontextmenu="return false">
- 
-  <header class="bg-gray-800 bg-opacity-70 backdrop-blur-md text-white p-4 fixed w-full z-10 top-0">
-   <nav class="container mx-auto flex justify-between items-center">
-    <a class="text-2xl font-bold" href="#home">
-     Leon Motaung
-    </a>
-    <div class="hidden md:flex space-x-6">
-     <a class="hover:text-gray-400" href="#home">
-      Home
-     </a>
-     <a class="hover:text-gray-400" href="#about">
-      About
-     </a>
-     <a class="hover:text-gray-400" href="#skills">
       Skills
-     </a>
-     <a class="hover:text-gray-400" href="#qualification">
-      Qualification
-     </a>
-     <a class="hover:text-gray-400" href="#portfolio">
-      Projects
-     </a>
-     <a class="hover:text-gray-400" href="#contact">
-      Contact-Me
-     </a>
-    </div>
-    <div class="flex items-center space-x-4">
-     <i class="uil uil-moon cursor-pointer" id="theme-button">
-     </i>
-     <div class="md:hidden cursor-pointer" id="nav-toggle">
-      <i class="uil uil-apps">
-      </i>
-     </div>
-    </div>
-   </nav>
-  </header>
-  <main class="mt-16">
-   <section class="bg-gray-100 py-20 fade-in" id="home">
-    <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center">
-     <div class="space-y-4">
-      <h1 class="text-4xl font-bold">
-       Hi, I'm Leon Motaung
-      </h1>
-      <h3 class="text-2xl">
-       Full Stack Developer (MERN)
-      </h3>
-      <p class="text-gray-700">
-       I am the owner of BYTEBURST Technologies Inc, a professional
-       <strong>
-        MERN stack developer
-       </strong>
-       , and I have completed extensive training through
-       <strong>
-        Udemy
-       </strong>
-       , where I have gained proficiency in a range of technologies and business development skills. I am highly skilled in my field and continuously strive to expand my knowledge and expertise.
-      </p>
-      <p class="text-gray-700">
-       With a self-driven, detail-oriented approach, I thrive in fast-paced environments and am always eager to learn and take on new challenges. I am currently seeking a position where I can apply my skills, grow professionally, and contribute to the success of a dynamic organization. My goal is to continually improve, excel in my field, and remain adaptable to new opportunities and challenges.
-      </p>
-      <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center" href="#contact">
-       Contact me
-       <i class="uil uil-message ml-2">
-       </i>
-      </a>
-     </div>
-     <div class="flex justify-center">
-      <img alt="A professional headshot of Leon Motaung" class="rounded-full" height="200" src="./assets/img/Pro.jpg" width="200"/>
-     </div>
-    </div>
-   </section>
-   <section class="py-20 fade-in" id="about">
-    <div class="container mx-auto text-center">
-     <h2 class="text-3xl font-bold">
-      About Me
      </h2>
      <span class="text-gray-500">
-      My introduction
+      My technical level
      </span>
-     <div class="mt-8 grid md:grid-cols-2 gap-8 items-center">
-      <img alt="Leon Motaung working on a laptop" class="rounded-lg" height="400" src="./assets/img/Pro.jpg" width="400"/>
+     <div class="mt-8 grid md:grid-cols-2 gap-8">
       <div class="text-left space-y-4">
-       <p class="text-gray-700">
-        I am a third-year student with a self-driven, detail-oriented mindset who thrives in fast-paced environments. Always eager to learn new concepts, I focus on broadening my skills and enhancing my understanding. I am currently seeking a position where I can apply my knowledge, continue to grow, and contribute to a professional organization. My goal is to continuously improve, excel in my field, and stay adaptable to new challenges.
-       </p>
-       <p class="text-gray-700">
-        In addition to my academic pursuits, I am the owner of BYTEBURST Technologies Inc. and a professional MERN stack developer. I am currently completing my undergraduate degree at the University of the Western Cape, South Africa. I am also enhancing my technical skills through various courses on Udemy, focusing on technology, software development, and business growth.
-       </p>
-       <div class="flex space-x-8">
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="CSS logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="50"/>
         <div>
-         <span class="block text-2xl font-bold">
-          7 + 15
-         </span>
-         <span class="text-gray-500">
-          Personal Projects + Course Projects
-         </span>
-        </div>
-        <div>
-         <span class="block text-2xl font-bold">
-          3
-         </span>
-         <span class="text-gray-500">
-          Years experience
-         </span>
+         <h2 class="text-2xl font-bold text-black">
+          CSS
+         </h2>
+         <p class="text-black">
+          Highly skilled in Cascading Style Sheets (CSS), with extensive experience in creating and implementing modern and responsive designs.
+         </p>
         </div>
        </div>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center" download="" href="assets/Leon CV Final.pdf">
-        Download CV
-        <i class="fas fa-download ml-2">
-        </i>
-       </a>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="Tailwind CSS logo" class="w-12 h-12" height="50" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          Tailwind CSS
+         </h2>
+         <p class="text-black">
+          Proficient in Tailwind CSS, a utility-first CSS framework for rapidly building custom user interfaces.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="AWS Solution Architect logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          AWS Solution Architect
+         </h2>
+         <p class="text-black">
+          Certified AWS Solution Architect with experience in designing and deploying scalable, highly available, and fault-tolerant systems.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="AWS Node JS Developer logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          AWS Node JS Developer
+         </h2>
+         <p class="text-black">
+          Experienced in developing serverless applications using AWS Lambda and Node.js.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="GitHub logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          GitHub
+         </h2>
+         <p class="text-black">
+          Proficient in using GitHub for version control, collaboration, and project management.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="Emotional Intelligence logo" class="w-12 h-12" height="50" src="https://images.squarespace-cdn.com/content/v1/5d5fec8d025df20001e19ad7/1571768832136-SYV0AXDGFCO4QXU9SKIV/EQ.png?format=1500w" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          Emotional Intelligence
+         </h2>
+         <p class="text-black">
+          Skilled in emotional intelligence, with the ability to understand and manage my own emotions, and those of others.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="MongoDB logo" class="w-12 h-12" height="50" src="https://webimages.mongodb.com/_com_assets/cms/kuyjsg7d7hhv0d5f0-horizontal_default.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          MongoDB
+         </h2>
+         <p class="text-black">
+          Experienced in using MongoDB, a popular NoSQL database, for building scalable and high-performance applications.
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="text-left space-y-4">
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="Javascript logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          Javascript
+         </h2>
+         <p class="text-black">
+          Skilled in Javascript programming language, with extensive experience in building dynamic and interactive web applications.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="HTML 5 logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          HTML 5
+         </h2>
+         <p class="text-black">
+          Expert in Hypertext Markup Language (HTML), with experience in developing and maintaining web pages and applications.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="React logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          React
+         </h2>
+         <p class="text-black">
+          Highly skilled in React, a popular JavaScript library for building user interfaces. Proficient in utilizing React's component-based architecture to create dynamic and responsive web applications.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="Bootstrap 5 logo" class="w-12 h-12" height="50" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          Bootstrap 5
+         </h2>
+         <p class="text-black">
+          Experienced in using Bootstrap, a popular CSS framework, to create responsive and mobile-friendly websites.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="AWS SysOps Administration logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          AWS SysOps Administration
+         </h2>
+         <p class="text-black">
+          Certified AWS SysOps Administrator with experience in managing and operating systems on the AWS platform.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="AWS Cloud Practitioner logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          AWS Cloud Practitioner
+         </h2>
+         <p class="text-black">
+          Certified AWS Cloud Practitioner with a fundamental understanding of AWS Cloud concepts, services, and terminology.
+         </p>
+        </div>
+       </div>
+       <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
+        <img alt="Express JS logo" class="w-12 h-12" height="50" src="https://images.credly.com/size/340x340/images/1c2c86e1-16ce-4e4d-a425-d1ac96bb026d/express.png" width="50"/>
+        <div>
+         <h2 class="text-2xl font-bold text-black">
+          Express JS
+         </h2>
+         <p class="text-black">
+          Proficient in Express.js, a minimal and flexible Node.js web application framework.
+         </p>
+        </div>
+       </div>
       </div>
      </div>
     </div>
    </section>
-   <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Expertise</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        .hover-grow:hover {
-            transform: scale(1.05);
-        }
-        .hover-slide:hover {
-            transform: translateX(10px);
-        }
-        .transition-all {
-            transition: all 0.3s ease-in-out;
-        }
-        .hidden-content {
-            display: none;
-        }
-    </style>
-</head>
-<body class="bg-gray-500 text-black">
-    <main class="px-6 py-12">
-        <h1 class="text-4xl font-bold text-black">EXPERTISE</h1>
-        <p class="text-lg text-black mb-12">A list of my core skills & tools</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="CSS logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">CSS</h2>
-                        <p class="text-black">Highly skilled in Cascading Style Sheets (CSS), with extensive experience in creating and implementing modern and respo...</p>
-                        <p class="hidden-content text-black">I have mastered various CSS techniques including Flexbox, Grid, animations, and responsive design.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Tailwind CSS logo" class="w-12 h-12" height="50" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">Tailwind CSS</h2>
-                        <p class="text-black">Proficient in Tailwind CSS, a utility-first CSS framework for rapidly building custom user interfaces...</p>
-                        <p class="hidden-content text-black">I have used Tailwind CSS to create highly customizable and responsive web designs efficiently.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS Solution Architect logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">AWS Solution Architect</h2>
-                        <p class="text-black">Certified AWS Solution Architect with experience in designing and deploying scalable, highly available, and fault-tolerant systems...</p>
-                        <p class="hidden-content text-black">I have designed and implemented various AWS solutions including EC2, S3, RDS, and Lambda.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS Node JS Developer logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">AWS Node JS Developer</h2>
-                        <p class="text-black">Experienced in developing serverless applications using AWS Lambda and Node.js...</p>
-                        <p class="hidden-content text-black">I have built and deployed serverless applications using AWS Lambda, API Gateway, and DynamoDB.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Node.js logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">Node.js</h2>
-                        <p class="text-black">Proficient in Node.js, a JavaScript runtime built on Chrome's V8 JavaScript engine...</p>
-                        <p class="hidden-content text-black">I have developed numerous backend services and APIs using Node.js and Express.js.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Express.js logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">Express.js</h2>
-                        <p class="text-black">Experienced in Express.js, a minimal and flexible Node.js web application framework...</p>
-                        <p class="hidden-content text-black">I have built RESTful APIs and web applications using Express.js, leveraging its robust features.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="MongoDB logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">MongoDB</h2>
-                        <p class="text-black">Proficient in MongoDB, a NoSQL database known for its flexibility and scalability...</p>
-                        <p class="hidden-content text-black">I have designed and managed databases using MongoDB, implementing CRUD operations and aggregation pipelines.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Javascript logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">Javascript</h2>
-                        <p class="text-black">Skilled in Javascript programming language, with extensive experience in building dynamic and interactive web applicati...</p>
-                        <p class="hidden-content text-black">I have developed numerous web applications using JavaScript, including frameworks like React and Node.js.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="HTML 5 logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">HTML 5</h2>
-                        <p class="text-black">Expert in Hypertext Markup Language (HTML), with experience in developing and maintaining web pages and applications. P...</p>
-                        <p class="hidden-content text-black">I have a deep understanding of HTML5, including semantic elements, multimedia, and APIs.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="React logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">React</h2>
-                        <p class="text-black">Highly skilled in React, a popular JavaScript library for building user interfaces. Proficient in utilizing React's com...</p>
-                        <p class="hidden-content text-black">I have built numerous single-page applications using React, leveraging hooks, context, and Redux for state management.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="Bootstrap 5 logo" class="w-12 h-12" height="50" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">Bootstrap 5</h2>
-                        <p class="text-black">Experienced in using Bootstrap, a popular CSS framework, to create responsive and mobile-friendly websites. Proficient ...</p>
-                        <p class="hidden-content text-black">I have utilized Bootstrap 5 to create responsive, mobile-first web designs with a consistent look and feel.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS SysOps Administration logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">AWS SysOps Administration</h2>
-                        <p class="text-black">Certified AWS SysOps Administrator with experience in managing and operating systems on the AWS platform...</p>
-                        <p class="hidden-content text-black">I have managed and automated AWS infrastructure using tools like CloudFormation, Terraform, and the AWS CLI.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4 mb-8 transition-all hover-grow">
-                    <img alt="AWS Cloud Practitioner logo" class="w-12 h-12" height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" width="50"/>
-                    <div>
-                        <h2 class="text-2xl font-bold text-black">AWS Cloud Practitioner</h2>
-                        <p class="text-black">Certified AWS Cloud Practitioner with a fundamental understanding of AWS Cloud concepts, services, and terminology...</p>
-                        <p class="hidden-content text-black">I have a solid foundation in AWS cloud concepts, services, and best practices for cloud architecture.</p>
-                        <a class="text-[#6699cc] cursor-pointer" onclick="toggleContent(this)">view more ↓</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="fixed bottom-4 right-4">
-        <a class="bg-[#fac863] p-4 rounded-full text-[#1b2b34] text-xl transition-all hover-grow" href="#">
-            <i class="fas fa-home"></i>
-        </a>
-    </footer>
-    <script>
-        function toggleContent(element) {
-            const hiddenContent = element.previousElementSibling;
-            if (hiddenContent.style.display === "none" || hiddenContent.style.display === "") {
-                hiddenContent.style.display = "block";
-                element.textContent = "view less ↑";
-            } else {
-                hiddenContent.style.display = "none";
-                element.textContent = "view more ↓";
-            }
-        }
-    </script>
-</body>
-</html>
    <section class="py-20 fade-in" id="qualification">
     <div class="container mx-auto text-center">
      <h2 class="text-3xl font-bold">
@@ -743,7 +320,6 @@
         Education
        </h3>
        <div class="space-y-4">
-        
         <div>
          <h4 class="text-xl font-bold">
           Class 12th
@@ -752,7 +328,7 @@
           Mfundo Thuto SS - 2019
          </span>
          <p class="text-gray-700">
-          Subjects studied: Science, Maths, English. Scored 76% in Physical Sciences, 72%. 
+          Subjects studied: Science, Maths, English. Scored 76% in Physical Sciences, 72%.
          </p>
         </div>
         <div>
@@ -766,182 +342,12 @@
           Studying core subjects of Accounting and Tax. Scored an aggregate of 3.0 GPA till now. Tutor and Rugby Player.
          </p>
         </div>
-        <h4 class="text-xl font-bold">
+        <div>
+         <h4 class="text-xl font-bold">
           Udemy
          </h4>
          <span class="text-gray-500">
           Udemy-2021
          </span>
          <p class="text-gray-700">
-          <link href="https://www.udemy.com/share/101WRi3@moann8xBoh_z41rjm1PODUUSlJlWIgKzVf8lkXz5ycfq2pFmv9xwmMUFGmEA1QlKPw==/">The Complete Web Development Course - Build 15 Projects <link>
-         </p>
-        </div>
-       <div>
-         <h4 class="text-xl font-bold">
-          University
-         </h4>
-         <span class="text-gray-500">
-          Udemy
-         </span>
-         <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS Cloud Practitioner
-         </p>
-        </div>
-       <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS Node JS Developer
-         </p>
-       <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS SysOps Administrator 
-         </p>
-       <p class="text-gray-700">
-          <link href="https://www.udemy.com/course/aws-certified-associate-architect-developer-sysops-admin/learn/lecture/7658146?start=60#learning-tools"> AWS Solution Architect 
-         </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="bg-gray-100 py-20 fade-in" id="portfolio">
-    <div class="container mx-auto text-center">
-     <h2 class="text-3xl font-bold">
-      Projects
-     </h2>
-     <span class="text-gray-500">
-      Most recent work
-     </span>
-     <div class="mt-8 grid md:grid-cols-2 gap-8">
-      <div class="bg-white p-4 rounded-lg shadow-md">
-       <img alt="Screenshot of Leon Motaung's portfolio website" class="rounded-lg mb-4" height="300" src="./assets/img/portfolio.png" width="400"/>
-       <h3 class="text-2xl font-bold">
-        My Portfolio
-       </h3>
-       <p class="text-gray-700">
-        My portfolio website highlights my expertise in software development, focusing on Java programming, web development using HTML, CSS, Bootstrap, and jQuery, and financial management projects. It showcases a variety of projects, including a language-learning platform and interactive graphical applications, demonstrating my ability to tackle complex technical challenges. Each project is detailed with descriptions, technologies used, and links to live demos or repositories. The site reflects my continuous learning and dedication to growth, providing an easy way for potential employers to view my work and skills.
-       </p>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/portfolio">
-        GitHub Repository
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/portfolio">
-        See Live
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-      <div class="bg-white p-4 rounded-lg shadow-md">
-       <img alt="Screenshot of Mental Maths App" class="rounded-lg mb-4" height="300" src="./assets/img/pt1.png" width="400"/>
-       <h3 class="text-2xl font-bold">
-        Mental Maths App
-       </h3>
-       <p class="text-gray-700">
-        This project is a fun multiple-choice game designed for kids to enhance their learning through interactive quizzes. Children can explore a variety of topics while testing their knowledge in an engaging way. With colorful visuals, age-appropriate questions, and instant feedback, kids can learn while having fun. The game encourages critical thinking and helps reinforce important concepts, making learning enjoyable and rewarding!
-       </p>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/mentaleee.git">
-        GitHub Repository
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/mentaleee.git">
-        See Live
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-      <div class="bg-white p-4 rounded-lg shadow-md">
-       <img alt="Screenshot of Mental Health App" class="rounded-lg mb-4" height="300" src="./assets/img/Screenshot 2024-11-16 at 16.04.02.png" width="400"/>
-       <h3 class="text-2xl font-bold">
-        Mental Health App
-       </h3>
-       <p class="text-gray-700">
-        This project is a mental health app designed to provide users with resources and tools to manage their mental well-being. It includes features such as mood tracking, guided meditations, and access to mental health professionals.
-       </p>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/mental-health">
-        GitHub Repository
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/mental-health">
-        See Live
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-      <div class="bg-white p-4 rounded-lg shadow-md">
-       <img alt="Screenshot of Photo Transfer App" class="rounded-lg mb-4" height="300" src="./assets/img/Screenshot 2024-11-30 at 14.55.05.png" width="400"/>
-       <h3 class="text-2xl font-bold">
-        Photo Transfer App
-       </h3>
-       <p class="text-gray-700">
-        This project is a photo transfer app that allows users to easily transfer photos between devices. It supports multiple file formats and provides a seamless user experience.
-       </p>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/PhotoTransfer">
-        GitHub Repository
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-       <a class="bg-blue-500 text-white px-4 py-2 rounded inline-flex items-center mt-4" href="https://github.com/LeonMotaung/PhotoTransfer">
-        See Live
-        <i class="uil uil-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="py-20 fade-in" id="contact">
-    <div class="container mx-auto text-center">
-     <h2 class="text-3xl font-bold">
-      Contact Me
-     </h2>
-     <span class="text-gray-500">
-      Get in touch
-     </span>
-     <div class="mt-8 grid md:grid-cols-2 gap-8">
-      <div class="text-left space-y-4">
-       <div class="flex items-center space-x-4">
-        <i class="uil uil-calling text-2xl">
-        </i>
-        <div>
-         <h3 class="text-xl font-bold">
-          Contact Me
-         </h3>
-         <span class="text-gray-500">
-          <a href="tel:(+27) 84 866 2418">
-           (+27) 84 866 2418
-          </a>
-         </span>
-        </div>
-       </div>
-       <div class="flex items-center space-x-4">
-        <i class="uil uil-envelope-minus text-2xl">
-        </i>
-
-   </section>
-   <section class="py-20 fade-in" id="contact">
-    <div class="container mx-auto text-center">
-     <h2 class="text-3xl font-bold">
-      Contact Me
-     </h2>
-     <span class="text-gray-500">
-      Get in touch
-     </span>
-     <div class="mt-8 grid md:grid-cols-2 gap-8">
-      <div class="text-left space-y-4">
-       <div class="flex items-center space-x-4">
-        <i class="uil uil-calling text-2xl">
-        </i>
-        <div>
-         <h3 class="text-xl font-bold">
-          Contact Me
-         </h3>
-         <span class="text-gray-500">
-          <a href="tel:(+27) 84 866 2418">
-           (+27) 84 866 2418
-          </a>
-         </span>
-        </div>
-       </div>
-       <div class="flex items-center space-x-4">
-        <i class="uil uil-envelope-minus text-2xl">
-        </i>
+          <a href="https://www.udemy.com/share/101WRi3@moann8xBoh_z41rjm1PODUUSlJlWIgKz
